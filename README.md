@@ -1,6 +1,6 @@
-# unda_ml
+# unda-data-mining-toolkit
 
-Aplikasi analisis data dan machine learning berbasis Python CLI. Mendukung pengambilan data dari Kaggle, Google Drive, atau URL serta metode analisis K-Means dan Apriori.
+Aplikasi analisis data dan machine learning berbasis Python CLI untuk pembelajaran kampus. Mendukung pengambilan data dari Kaggle, Google Drive, atau URL serta metode analisis K-Means dan Apriori.
 
 ## Fitur Utama
 
@@ -17,8 +17,8 @@ Copy-paste code ini di cell pertama:
 
 ```python
 # Clone repository dan install dependencies
-!git clone https://github.com/unyil46/unda_ml.git
-%cd unda_ml
+!git clone https://github.com/unyil46/unda-data-mining-toolkit.git
+%cd unda-data-mining-toolkit
 !pip install -q -r requirements.txt
 
 # Setup Kaggle API (gunakan placeholder untuk dataset publik)
@@ -93,7 +93,7 @@ Butuh API key asli:
 ## Struktur Folder
 
 ```
-unda_ml/
+unda-data-mining-toolkit/
 ├── main.py
 ├── config.py
 ├── requirements.txt
