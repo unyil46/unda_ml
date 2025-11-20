@@ -1,3 +1,4 @@
-# Konfigurasi global
-KAGGLE_USERNAME = "yusfijauhari"
-KAGGLE_KEY = "62b176978729dd907c78987da3fbd454"
+import os
+
+KAGGLE_USERNAME = os.getenv("KAGGLE_USERNAME")
+KAGGLE_KEY = os.getenv("KAGGLE_KEY")
