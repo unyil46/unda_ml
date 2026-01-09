@@ -26,6 +26,7 @@ import os
 os.environ['KAGGLE_USERNAME'] = 'your_username_here'
 os.environ['KAGGLE_KEY'] = 'your_api_key_here'
 ```
+> ℹ️ Aplikasi bisa digunakan langsung tanpa mengganti API key untuk mengakses dataset Kaggle publik. Untuk fitur lengkap, ganti dengan [API key Kaggle Anda](https://www.kaggle.com/settings).
 
 ### Step 2: Jalankan Aplikasi
 
@@ -34,8 +35,6 @@ Di cell berikutnya, jalankan:
 ```python
 !python main.py
 ```
-
-> ℹ️ Aplikasi bisa digunakan langsung tanpa mengganti API key untuk mengakses dataset Kaggle publik. Untuk fitur lengkap, ganti dengan [API key Kaggle Anda](https://www.kaggle.com/settings).
 
 ## Menu Aplikasi
 
@@ -49,7 +48,8 @@ Setelah menjalankan aplikasi, Anda akan melihat menu berikut:
 5. Daftar dataset lokal yang telah diunduh
 6. Analisis dataset dengan K-Means Clustering
 7. Analisis dataset dengan Apriori (Association Rules)
-8. Hapus folder dataset lokal
+8. Analisis dataset dengan Ensemble Sederhana
+9. Hapus folder dataset lokal
 Ketik 'q' untuk keluar.
 Pilih opsi [1-8]:
 ```
